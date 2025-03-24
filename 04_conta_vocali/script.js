@@ -12,11 +12,10 @@ function checkVowels(a) {
     for (i = 0; i < parola.length; i++)
         if (parola[i] === "a" || parola[i] === "e" || parola[i] === "i" || parola[i] === "o" || parola[i] === "u") {
             contatoreVocali += parola[i]
-            numeroVocali ++;
+            numeroVocali++;
         }
-        console.log(`Le vocali sono: ${numeroVocali} ${contatoreVocali}`)
+    console.log(`Le vocali sono: ${numeroVocali} ${contatoreVocali}`)
 }
-
 
 // Invoca la funzione qui e stampa il risultato in console
 
