@@ -6,12 +6,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 
 function checkLetter(arr) {
-    let letteraUtente = prompt("Inserisci la lettera");
+    let letteraUtente = prompt("Inserisci la lettera").toUpperCase();
     console.log("Hai scelto la lettera:" + " " + letteraUtente)
     let array2 = [];
 
     for (i = 0; i < arr.length; i++) {
-        
+
         let lettera = arr[i];
 
         if (letteraUtente === lettera[0]) {
