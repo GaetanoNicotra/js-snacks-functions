@@ -21,7 +21,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
     console.log(array2)
 }*/
 
-
+// ******** TRASFORMAZIONE IN FUNZIONE FRECCIA ********
 const checkLetter = (arr) => {
     let letteraUtente = prompt("Inserisci la lettera").toUpperCase();
     console.log("Hai scelto la lettera:" + " " + letteraUtente)
